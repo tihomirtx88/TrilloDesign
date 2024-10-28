@@ -15,8 +15,6 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
-<<<<<<< HEAD
-=======
 :root {
   --color-primary: #eb2f64;
   --color-primary-light: #FF3366;
@@ -51,4 +49,3 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
->>>>>>> ab9db3b7744a0cdd9506b2234d0978bdb717bb47
