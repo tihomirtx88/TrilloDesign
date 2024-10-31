@@ -6,11 +6,14 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "start": "live-server --port=8380 --no-browser --verbose"
+    "start": "live-server --port=8380 --no-browser --verbose",
+    "compress:css": "node-sass css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass compress:css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^7.1.4",
     "live-server": "^1.2.2",
     "node-sass": "^9.0.0"
   }
